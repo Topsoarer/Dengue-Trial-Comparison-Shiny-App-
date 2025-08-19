@@ -1,0 +1,10 @@
+name: trialcomparison-shiny
+title:
+username: peiyuliu
+account: peiyuliu
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15229311
+bundleId: 10792660
+url: https://peiyuliu.shinyapps.io/trialcomparison-shiny/
+version: 1
