@@ -19,22 +19,6 @@ The tool provides a dynamic interface to visualize the impact of these parameter
 - **Real-time Visualization**: Dynamically generates a variety of plots, including biting rates, antibody titer trajectories, infection hazards, and sample size requirements.
 - **Scenario Recording**: Save, view, and compare multiple parameter configurations and their resulting outcomes in a clear, interactive table.
 
-## How to Run Locally
-
-1.  Ensure you have R and RStudio installed.
-2.  Clone this repository to your local machine.
-3.  Install the required packages by running the following command in the R console:
-    ```R
-    install.packages(c('shiny', 'shinydashboard', 'ggplot2', 'dplyr', 'pwr', 'DT'))
-    ```
-4.  Open the `app.R` file in RStudio.
-5.  Click the "Run App" button.
-
-## File Structure
-
--   `app.R`: The core script containing all UI (User Interface) and Server (Server Logic) for the Shiny application.
--   `www/`: A special directory for web assets.
-    -   `model_description.html`: (Optional) A detailed mathematical description of the underlying model, generated from R Markdown.
 
 ## Author
 
